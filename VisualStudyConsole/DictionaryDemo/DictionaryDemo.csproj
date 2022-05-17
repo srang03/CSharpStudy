@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}</ProjectGuid>
+    <ProjectGuid>{EE1F1DA0-A1D5-49A6-AC85-53C1B0915544}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>VisualStudyConsole</RootNamespace>
-    <AssemblyName>VisualStudyConsole</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>DictionaryDemo</RootNamespace>
+    <AssemblyName>DictionaryDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
