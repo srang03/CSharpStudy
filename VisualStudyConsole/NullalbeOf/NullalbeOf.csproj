@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8F162DB2-C3A2-4558-90F7-D002C0778BAC}</ProjectGuid>
+    <ProjectGuid>{27EC79E7-23B6-4612-9E28-52B184A1C166}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TryCatchFinally</RootNamespace>
-    <AssemblyName>TryCatchFinally</AssemblyName>
+    <RootNamespace>NullalbeOf</RootNamespace>
+    <AssemblyName>NullalbeOf</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
