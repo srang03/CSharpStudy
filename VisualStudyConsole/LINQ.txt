@@ -1,0 +1,40 @@
+LINQ (Language INtegrated Query)
+(C#에서 가장 획기적인 개발 방법)
+: C# 언어에 직접 쿼리(Query) 기능을 통합하는 방식을 기반으로 하는 기술 집합 이름으로,
+컬렉션 형태의 데이터를 가공하고 추가적인 메서들을 제공해서 편리하게 프로그래밍 할 수 있도록 도와주는 도구이다.
+
+미리 만들어 놓은 확장 메서드를 네임스페이스 안에 묶어서 제공하여 컬렉션 데이터를 가공할때 메서드를 사용할 수 있다.
+* C#는 MS사에서 만들고 주력으로 사용하는 프로그래밍 언어이다.
+
+[1] Anders Hejlsberg (엔더스 헤일스버그) 영상
+C#, Typescript, LINQ 개발 하신 프로그래머
+https://www.youtube.com/watch?v=fG8GgqfYZkw&ab_channel=Mid-2000sThrowback
+2005년도 C#이 나오면서 LINQ 처음 소개한 동영상
+
+LINQ (링크로 발음)
+
+[2] LINQ 메서드 사용
+System.Linq 네임스페이스에서 콜렉션을 위한 다양한 확장 메서드를 제공한다.
+for문과 if문은 Side  Effect가 발생할 확률이 높다
+*Side Effect : 부작용, 파생작업
+
+int[] numbers = {1, 2, 3, 4, 5};
+알고리즘을 코드로 구현할 수 있어야 하고, LINQ에서 제공하는 확장 메서드도 사용할 줄 알아야한다.
+
+
+[3] WHERE 문
+람다식의 식을 사용해서 Where문의 인자로 메서드를 전달
+numbers.Where(num => num % 2 == 0)
+=>를 goes to로 발음
+
+
+[4] SELECT 문
+numbers.Select(num => num); //  // 식 람다
+numbers.Select(num => { return num; }); // 문 람다
+
+[5] IEnumerable
+IEnumerable<int> newNumbers = numbers.Where(n => n % 2 == 0 || n % 3 == 0);
+newNumbers.ToList();
+
+WHERE문의 경우 IEnumerable<int> 형으로 반환되기 때문에 리스트로 변환해주는 작업이 필요하다.
+IEnumerable<int> int의 컬렉션을 나타내는 인터페이스이다. (int 자료형의 데이터를 담을 수 있는 데이터)
