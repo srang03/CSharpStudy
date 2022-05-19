@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1927
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudyConsole", "VisualStudyConsole\VisualStudyConsole.csproj", "{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_graph", "VisualStudyConsole\struct_graph.csproj", "{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeExample", "DateTime\DateTimeExample.csproj", "{D39B67F3-F1F6-4D70-B68B-2F468A2BD333}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39B67F3-F1F6-4D70-B68B-2F468A2BD333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39B67F3-F1F6-4D70-B68B-2F468A2BD333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39B67F3-F1F6-4D70-B68B-2F468A2BD333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39B67F3-F1F6-4D70-B68B-2F468A2BD333}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
