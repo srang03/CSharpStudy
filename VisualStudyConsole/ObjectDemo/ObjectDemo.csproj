@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{968B4B86-991F-4BF1-B829-8A89E170C632}</ProjectGuid>
+    <ProjectGuid>{B3269CAB-A479-40A0-8173-E3536A850FCE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EnumAnimal</RootNamespace>
-    <AssemblyName>EnumAnimal</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>ObjectDemo</RootNamespace>
+    <AssemblyName>ObjectDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
