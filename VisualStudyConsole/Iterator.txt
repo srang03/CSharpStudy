@@ -1,0 +1,16 @@
+[1] 반복기 (Iterator)
+	이터레이터는 배열과 컬렉션 형태의 데이터를 단계별로 실행하는데 사용할 수 있다.
+	반복기를 구현할 때는 IEnumerable 인터페이스와 yield 키워드를 사용한다.
+
+	IEnumerable 반환값을 가지는 반복기는 foreach 문으로 반복 호출하여 사용할 수 있다.
+	반복기는 자신이 만들어 놓은 클래스 및 객체의 맴버를 호출할 때 foreach문을 사용해서
+	반복 출력되도록 설정해 놓은 구문이다.
+	클래스의 인스턴스, 즉 객체의 메서드를 foreach문으로 배열 형식의 필드에 접근할 수 있게 하는 기능
+
+	public IEnumerable GetEnumerator()
+	{
+		for (int i = 0; i < languages.Length; i++)
+		{
+			yield return languages[i];
+		}
+	}
