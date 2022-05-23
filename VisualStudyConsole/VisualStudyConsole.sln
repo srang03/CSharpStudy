@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1927
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_graph", "VisualStudyConsole\struct_graph.csproj", "{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}"
 EndProject
@@ -297,6 +297,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeDemo", "AttributeDemo\AttributeDemo.csproj", "{A03A3EA1-3639-40F4-9AF2-2B0DF20B1B52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallerInformation", "CallerInformation\CallerInformation.csproj", "{48336FA6-D8A3-4FE6-943F-5353ACDA2AFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "47_OOP", "47_OOP", "{5933A1E9-A053-47D3-BE18-88B91875EAFB}"
+	ProjectSection(SolutionItems) = preProject
+		OOP.txt = OOP.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPDemo", "OOPDemo\OOPDemo.csproj", "{C3A0BBE1-3D11-44F2-A055-36D8C5140500}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -672,6 +679,10 @@ Global
 		{48336FA6-D8A3-4FE6-943F-5353ACDA2AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48336FA6-D8A3-4FE6-943F-5353ACDA2AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48336FA6-D8A3-4FE6-943F-5353ACDA2AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A0BBE1-3D11-44F2-A055-36D8C5140500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A0BBE1-3D11-44F2-A055-36D8C5140500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A0BBE1-3D11-44F2-A055-36D8C5140500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A0BBE1-3D11-44F2-A055-36D8C5140500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -767,6 +778,7 @@ Global
 		{4A06A8A9-895C-4F40-B717-6A18140EE23E} = {66555B02-BCB5-4904-8ED0-2DCF5538399B}
 		{A03A3EA1-3639-40F4-9AF2-2B0DF20B1B52} = {8C936EFD-7991-4D0E-A553-5AC2E373D468}
 		{48336FA6-D8A3-4FE6-943F-5353ACDA2AFD} = {8C936EFD-7991-4D0E-A553-5AC2E373D468}
+		{C3A0BBE1-3D11-44F2-A055-36D8C5140500} = {5933A1E9-A053-47D3-BE18-88B91875EAFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F48A0D6D-3694-4C7A-AB4E-1FA52DA38837}
