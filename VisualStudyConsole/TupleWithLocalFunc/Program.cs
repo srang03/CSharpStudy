@@ -13,7 +13,7 @@ namespace TupleWithLocalFunc
             int[] numbers = { 0b1, 0B10, 0b0100, 0B000_1000 };
             var (sum, count) = Tally(numbers);
             Console.WriteLine($"{sum}, {count}");
-        }
+        } 
 
         private static (int sum, int count) Tally(int[] numbers)
         {
