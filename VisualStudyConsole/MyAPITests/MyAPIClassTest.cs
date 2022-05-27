@@ -32,6 +32,18 @@ namespace MyAPITests
         }
 
         [TestMethod]
+        public void IsItPossibleToWork()
+        {
+            int[] arr = { 33, 44, 22, 55 };
+
+            int[] result = DulAlgorithm.Algorithm.SelectionSort(arr);
+
+            Assert.AreEqual(22, result[0]);
+            Assert.AreEqual(33, result[1]);
+            Assert.AreEqual(44, result[2]);
+        }
+
+        [TestMethod]
         public void ISEven_ShouldReturnTrue()
         {
             int x = 2;

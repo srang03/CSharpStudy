@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>예시로 만든 NuGet Package</Description>
   </PropertyGroup>
 
 </Project>
