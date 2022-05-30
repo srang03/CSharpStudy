@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1927
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_graph", "VisualStudyConsole\struct_graph.csproj", "{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}"
 EndProject
@@ -439,6 +439,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dinner_", "Dinner_", "{D7DD
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemoEx", "AsyncDemoEx\AsyncDemoEx.csproj", "{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Review", "Review", "{4C83962B-1506-47D5-AEC7-31D2541CDF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncStudy", "AsyncStudy\AsyncStudy.csproj", "{0EE8D6BF-79B6-4231-8EBA-7B6AA9109706}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -962,6 +966,10 @@ Global
 		{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE8D6BF-79B6-4231-8EBA-7B6AA9109706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE8D6BF-79B6-4231-8EBA-7B6AA9109706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE8D6BF-79B6-4231-8EBA-7B6AA9109706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE8D6BF-79B6-4231-8EBA-7B6AA9109706}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1097,6 +1105,8 @@ Global
 		{E2AB7768-16BE-4645-8971-22044A7617EA} = {D7DDD0F1-A013-403A-B8B3-7EA47C003247}
 		{D7DDD0F1-A013-403A-B8B3-7EA47C003247} = {FF361242-3BED-4973-830B-8B95369BACFD}
 		{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279} = {FF361242-3BED-4973-830B-8B95369BACFD}
+		{4C83962B-1506-47D5-AEC7-31D2541CDF0D} = {FF361242-3BED-4973-830B-8B95369BACFD}
+		{0EE8D6BF-79B6-4231-8EBA-7B6AA9109706} = {4C83962B-1506-47D5-AEC7-31D2541CDF0D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F48A0D6D-3694-4C7A-AB4E-1FA52DA38837}
