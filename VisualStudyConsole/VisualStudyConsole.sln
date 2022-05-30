@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1927
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_graph", "VisualStudyConsole\struct_graph.csproj", "{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}"
 EndProject
@@ -419,6 +419,26 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateNoteReview", "DelegateNoteReview\DelegateNoteReview.csproj", "{42FB84B1-CF58-4249-BCAA-7B045EA7522E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethod", "AnonymousMethod\AnonymousMethod.csproj", "{2AC26583-5269-4199-AC64-30E4F2C2D7FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "56_Async", "56_Async", "{FF361242-3BED-4973-830B-8B95369BACFD}"
+	ProjectSection(SolutionItems) = preProject
+		Async.txt = Async.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncDemo", "AsyncDemo\AsyncDemo.csproj", "{3E2B1BAA-6762-44BB-9761-6392B3AEC177}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitDes", "AsyncAwaitDes\AsyncAwaitDes.csproj", "{99F6DD32-42EA-4E0C-A804-CD09B353A1B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FromResultFunc", "FromResultFunc\FromResultFunc.csproj", "{F868FCA1-607B-49B2-860E-C4FED90B9EFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dinner", "Dinner\Dinner.csproj", "{E2AB7768-16BE-4645-8971-22044A7617EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dinner_", "Dinner_", "{D7DDD0F1-A013-403A-B8B3-7EA47C003247}"
+	ProjectSection(SolutionItems) = preProject
+		WindowsFormsApp1\Program.cs = WindowsFormsApp1\Program.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemoEx", "AsyncDemoEx\AsyncDemoEx.csproj", "{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -922,6 +942,26 @@ Global
 		{2AC26583-5269-4199-AC64-30E4F2C2D7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AC26583-5269-4199-AC64-30E4F2C2D7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AC26583-5269-4199-AC64-30E4F2C2D7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2B1BAA-6762-44BB-9761-6392B3AEC177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2B1BAA-6762-44BB-9761-6392B3AEC177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2B1BAA-6762-44BB-9761-6392B3AEC177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2B1BAA-6762-44BB-9761-6392B3AEC177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F6DD32-42EA-4E0C-A804-CD09B353A1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F6DD32-42EA-4E0C-A804-CD09B353A1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F6DD32-42EA-4E0C-A804-CD09B353A1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F6DD32-42EA-4E0C-A804-CD09B353A1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F868FCA1-607B-49B2-860E-C4FED90B9EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F868FCA1-607B-49B2-860E-C4FED90B9EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F868FCA1-607B-49B2-860E-C4FED90B9EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F868FCA1-607B-49B2-860E-C4FED90B9EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2AB7768-16BE-4645-8971-22044A7617EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AB7768-16BE-4645-8971-22044A7617EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AB7768-16BE-4645-8971-22044A7617EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AB7768-16BE-4645-8971-22044A7617EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1051,6 +1091,12 @@ Global
 		{D462BD2A-B1CD-40C0-8B57-4311D4259FFE} = {5984980D-2C4E-4FAF-ADC5-63E393B3266F}
 		{42FB84B1-CF58-4249-BCAA-7B045EA7522E} = {5984980D-2C4E-4FAF-ADC5-63E393B3266F}
 		{2AC26583-5269-4199-AC64-30E4F2C2D7FB} = {5984980D-2C4E-4FAF-ADC5-63E393B3266F}
+		{3E2B1BAA-6762-44BB-9761-6392B3AEC177} = {FF361242-3BED-4973-830B-8B95369BACFD}
+		{99F6DD32-42EA-4E0C-A804-CD09B353A1B2} = {FF361242-3BED-4973-830B-8B95369BACFD}
+		{F868FCA1-607B-49B2-860E-C4FED90B9EFD} = {FF361242-3BED-4973-830B-8B95369BACFD}
+		{E2AB7768-16BE-4645-8971-22044A7617EA} = {D7DDD0F1-A013-403A-B8B3-7EA47C003247}
+		{D7DDD0F1-A013-403A-B8B3-7EA47C003247} = {FF361242-3BED-4973-830B-8B95369BACFD}
+		{53D2B8FD-5E1B-4B19-B21E-5268CE4A5279} = {FF361242-3BED-4973-830B-8B95369BACFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F48A0D6D-3694-4C7A-AB4E-1FA52DA38837}
