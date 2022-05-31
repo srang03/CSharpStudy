@@ -1,0 +1,29 @@
+[1] 인메모리 데이터베이스
+	메모리상에 데이터를 입력, 조회, 수정, 삭제, 검색하는 작업을 수행
+
+[2] CRUD 네이밍
+	Add, Get, Update (Edit), Remove (Delete)
+	1) 데이터 입력 메서드 : AddNumber();
+	2) 데이터 전체 조회 : GetAllNumbers();
+	3) 단일 데이터 조회 : GetNumberById();
+	4) 데이터 수정 : UpdateNumber(), EditNumber();
+	5) 데이터삭제 : RemoveNumber(), DeletNumber();  
+
+	데이터 출력 Get
+	데이터 입력 Creqate, Add, New
+	데이터 수정 Update, Modify, Edit, Change
+	데이터 삭제 Delete, Remove
+
+	BREAD SHOP 패턴
+	BREAD >> Browse, Read, Edit, Add, Delete
+
+
+[3] 리포지토리 패턴
+	모델 클래스 : 데이터 구조
+	리포지토리 클래스 : 데이터에 대한 입력, 출력, 삭제 담당
+	컨텍스트 클래스 : 모델과 리포지토리 사용하여 업무를 하나로 묶어 관리
+
+
+	모델 클래스 생성 > 리포지토리 인터페이스 > 리포지토리 인터페이스 상속 > 리포지토리 클래스
+
+[4]
