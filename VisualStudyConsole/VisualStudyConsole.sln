@@ -479,17 +479,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "58_StreamFile", "58_StreamFile", "{C24D6D98-772E-425C-AF01-3C67A3558D2E}"
 	ProjectSection(SolutionItems) = preProject
 		FileStream.txt = FileStream.txt
+		FileStreamDemo.txt = FileStreamDemo.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetFileNameDemo", "GetFileNameDemo\GetFileNameDemo.csproj", "{82AF6BC1-5415-4B23-8021-6A553B35D7D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetFileNameDemo", "GetFileNameDemo\GetFileNameDemo.csproj", "{82AF6BC1-5415-4B23-8021-6A553B35D7D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriterWriteLineDemo", "StreamWriterWriteLineDemo\StreamWriterWriteLineDemo.csproj", "{62C8CEE4-001B-44DD-951F-75A4358783F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamWriterWriteLineDemo", "StreamWriterWriteLineDemo\StreamWriterWriteLineDemo.csproj", "{62C8CEE4-001B-44DD-951F-75A4358783F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAndFileInfo", "FileAndFileInfo\FileAndFileInfo.csproj", "{865A84C4-9BBB-4885-BCC7-084E3F14237C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAndFileInfo", "FileAndFileInfo\FileAndFileInfo.csproj", "{865A84C4-9BBB-4885-BCC7-084E3F14237C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryAndDirectoryInfo", "DirectoryAndDirectoryInfo\DirectoryAndDirectoryInfo.csproj", "{23219EEF-BAE6-4664-BDCC-7F65D055D508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryAndDirectoryInfo", "DirectoryAndDirectoryInfo\DirectoryAndDirectoryInfo.csproj", "{23219EEF-BAE6-4664-BDCC-7F65D055D508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToCollection", "TextToCollection\TextToCollection.csproj", "{1B5A394B-70A7-4051-8FA9-F650053D9C9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextToCollection", "TextToCollection\TextToCollection.csproj", "{1B5A394B-70A7-4051-8FA9-F650053D9C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
