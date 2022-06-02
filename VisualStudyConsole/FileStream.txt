@@ -1,0 +1,75 @@
+[1] 파일 스트림
+	데이터를 영구적으로 보관하기 위해 파일 또느 데이터베이스에 저장해야 한다.
+	이때 .NET 프레임워크에서 제공하는 파일과 스트림 클래스를 사용할 수 있다.
+
+[2] System.IO 네임스페이스
+	파일에 대한 입력과 출력을 담당하는 네임스페이스는 System.IO 이다.
+
+	File 클래스 : 텍스트 파일 및 간단한 바이너리 파일을 접근할 때 권장되는 클래스이다.
+	Stream 클래스 : 모든 데이터를 메모리에 올려두지 않고 사용하기 때문에 대용량 파일 처리에 효과적이다.
+
+[3] Path 클래스
+	Path 클래스로 파일 이름 및 확장자, 폴더 정보 얻기
+
+	string dir = "C:\\Ian\\test.txt" // 경로 및 파일
+	1) 파일 이름 가져오기
+		Path.GetFileName(dir);
+	2) 파일 이름 가져오기 (확장자 제외)
+		Path.GetFileNameWithoutExtension(dir)
+	3) 파일 확장자 가져오기
+		Path.GetExtension(dir)
+	4) 파일 디렉토리 가져오기
+		Path.GetDirectoryName(dir)
+	5) 파일 전체 경로 (파일명 포함) 가져오기
+		Path.GetFullPath
+
+[4] 파일과 디렉터리 관련 클래스
+	
+	1) 파일 쓰기
+	StreamWriter 클래스 : 텍스트 파일을 만들어 저장하기 위해서 사용한다.
+		#1 StreamWriter 클래스 사용하여 파일을 생성 (객체 생성)
+			StreamWriter sw = new StreamWriter(data);
+
+		#2 파일 쓰기
+		sw.WriteLine(data)
+
+		#3 객체 생성 후 닫기
+		sw.Close()
+
+		#4 객체 메모리 해제
+		sw.Dispose();
+
+	
+	2) 파일 읽기
+	StreamReader 클래스 : 텍스트 파일을 읽기 위해 사용한다.
+		#1 StreamReader 객체 생성
+		StreamReader sr = new StreamReader(data);
+		
+		#2 파일 출력
+		Console.WriteLine(sr.ReadToEnd()); // 파일 내용 전체 ㅇ릭엉오기
+
+		#3 객체 생성 후 닫기
+		sr.Close();
+
+		#4 객체 메모리 해제
+		sr.Dispose();
+
+	3) 파일 정보 얻기
+		- File 정적 클래스 사용 가능
+		- FileInfo 인스턴스 클래스 사용 가능
+
+		File.Exists(file) // 파일이 존재하면
+		
+		FileInfo fi = new FileInfo(file);
+		if(fi.Exists)
+
+	4) 폴더 정보 읽기
+		- Directory 정적 클래스
+		- DirectoryInfo 인스턴스 클래스
+
+		GetDirectories() : 모든 디렉토리 출력
+		GetFiles() : 모든 파일 출력
+
+
+[5] 텍스트 데이터를 컬렉션 데이터로 가져오기
+	
