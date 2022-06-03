@@ -1,1 +1,23 @@
-[1] XML
+[1] XML 
+	XElement 클래스는 XML 요소를 생성하거나 담을 수 있는 그릇이다.
+
+	XElement category = new XElement("Menus",
+		 new XElement("menu" , "C1"),
+		 new XElement("menu" , "C2"),
+		 new XElement("menu" , "C3")
+	);
+
+	XML 데이터를 다루는 클래스 중에서 XElement 클래스를 사용하여 XML 데이터를 만들고,
+	XML 데이터에 LINQ를 사용하여 XML 요소를 가공한다.
+
+[2] JSON 데이터
+	JSON 데이터는 최근 프로그래밍에서 많이 사용하는 데이터 구조이다.
+	C# 객체를 JSON 문자열로 변환하는 내용을 직렬화(Serialize)라고 하고
+	JSON 문자열에서 C# 객체로 변환하는 작업을 역직렬화(Deserialize)라고 한다.
+
+	C# => JSON 문자열 // 직렬화
+	JSON 문자열 => C# // 역직렬화
+	  
+	#1 "Newtonsoft.JSON" 다운
+	#2 using Newtonsoft.Json
+	#3 
