@@ -1,0 +1,20 @@
+[1] 네트워크 프로그래밍
+	1) HttpClient 클래스
+	: .NET에서 제공하는 HttpClient 클래스를 사용하면 인터넷에 연결된 네트워크 상의 데이터를 가져오거나 전송할 수 있다.
+
+	#1. HttpClient 객체 생성
+	HttpClient httpClient = new HttpClient();
+
+	#2. GetAsync() 메서드 호출
+	HttpResponseMessage httpResponseMessage =
+		await httpClient.GetAsync("url 주소");
+
+	#3. HTML 가져오기
+	string responseBody = await httpResponseMessage.Content.ReadAsStringAsync();
+
+	#4. 출력
+	Console.WriteLine(responseBody);
+
+
+	네트워크를 통해 데이터를 입출력할 수 있다.
+
