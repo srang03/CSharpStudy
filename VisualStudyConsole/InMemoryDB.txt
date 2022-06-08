@@ -1,0 +1,38 @@
+DBMS와 데이터를 주고 받는 클래스를 다수 제공하는데 이러한 클래스 집합을 ADO.NET 이라고 합니다.
+
+- CRUD
+	Create (입력)
+	Read (출력)
+	Retrieve (검색)
+	Update (수정)
+	Delete (삭제)
+
+- BREAD SHOP	
+	Browse (상세 보기)
+	Read (전체 출력)
+	Edit (수정)
+	Add (삽입)
+	Delete (삭제)
+
+	Search (검색)
+	Have (카운트)
+	Ordering (정렬)
+	Paging (페이징)
+
+- 리포지토리 패턴 (Repository Pattern)
+	저장소에서 읽어 오는 코드들을 Repository 클래스에 저장하자는 메커니즘이다.
+	1) Model Class : 데이터의 구조 생성
+	2) Repository Class : 데이터의 입력, 출력, 수정, 삭제 기능 담당 (Service Class라고도 한다.)
+	3) Context Class : 모델 클래스와 리포지토리 클래스를 사용하여 하나의 업무를 묶어서 관리하는 역할 수행
+
+	UI - 컨텍스트 클래스(비즈니스 로직) - 리포지토리 클래스(입출력) - 모델 클레스(데이터 구조)
+
+
+[ Todo App Creating ]
+#1 라이브러리 > 모델 클래스 생성 (todo)
+	- Property 생성
+
+#2 I__Repository 인터페이스 생성
+
+
+#3 __Respository 클래스 (인터페이스 상속)
