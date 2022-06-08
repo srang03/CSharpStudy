@@ -1,0 +1,10 @@
+﻿CREATE TABLE dbo.Todos (
+	ID			INT Identity(1, 1) PRIMARY KEY,
+	TITLE		NVARCHAR(100) NOT NULL,
+	ISDONE		BIT Default(0)
+)
+
+GO
+
+SELECT ID, TITLE, ISDONE FROM dbo.Todos;
+GO
