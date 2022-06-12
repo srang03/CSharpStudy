@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32526.322
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1927
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_graph", "VisualStudyConsole\struct_graph.csproj", "{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}"
 EndProject
@@ -528,9 +528,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "57_InMemoryDB", "57_InMemor
 		InMemoryDB.txt = InMemoryDB.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{FD8152C7-0BF9-4F93-9180-95F3C6EAD82F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{FD8152C7-0BF9-4F93-9180-95F3C6EAD82F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Conosle.Program", "TodoApp.Conosle.Program\TodoApp.Conosle.Program.csproj", "{7345FEFF-140C-45B9-AB81-79ED76D3F0F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Conosle.Program", "TodoApp.Conosle.Program\TodoApp.Conosle.Program.csproj", "{7345FEFF-140C-45B9-AB81-79ED76D3F0F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{6478A78B-FE4C-4BE7-A926-46FE1D42C1DD}"
 EndProject
@@ -538,6 +538,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "58_FileStream", "58_FileStr
 	ProjectSection(SolutionItems) = preProject
 		FileStreamReview.txt = FileStreamReview.txt
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "43_Inheritance", "43_Inheritance", "{8957DBAF-B6E6-478F-9F2D-368BE8B37764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionReview01", "ExtensionReview01\ExtensionReview01.csproj", "{F90D080A-3974-4570-B061-BE3A82B8E548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionReview02", "ExtensionReview02\ExtensionReview02.csproj", "{6383C282-968E-4D04-AC06-82E1931C39FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractReview", "AbstractReview\AbstractReview.csproj", "{71314A97-6636-4031-96CF-246D63616C79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "44_OverrideReview", "44_OverrideReview", "{0CC8D32A-8C33-4724-A19B-AD5F1EB740C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideReivew", "OverrideReivew\OverrideReivew.csproj", "{1C7B2D2F-F0A6-4301-BD14-91BCDB850317}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1161,6 +1173,22 @@ Global
 		{6478A78B-FE4C-4BE7-A926-46FE1D42C1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6478A78B-FE4C-4BE7-A926-46FE1D42C1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6478A78B-FE4C-4BE7-A926-46FE1D42C1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90D080A-3974-4570-B061-BE3A82B8E548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90D080A-3974-4570-B061-BE3A82B8E548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90D080A-3974-4570-B061-BE3A82B8E548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90D080A-3974-4570-B061-BE3A82B8E548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6383C282-968E-4D04-AC06-82E1931C39FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6383C282-968E-4D04-AC06-82E1931C39FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6383C282-968E-4D04-AC06-82E1931C39FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6383C282-968E-4D04-AC06-82E1931C39FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71314A97-6636-4031-96CF-246D63616C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71314A97-6636-4031-96CF-246D63616C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71314A97-6636-4031-96CF-246D63616C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71314A97-6636-4031-96CF-246D63616C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7B2D2F-F0A6-4301-BD14-91BCDB850317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7B2D2F-F0A6-4301-BD14-91BCDB850317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7B2D2F-F0A6-4301-BD14-91BCDB850317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7B2D2F-F0A6-4301-BD14-91BCDB850317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1330,6 +1358,12 @@ Global
 		{7345FEFF-140C-45B9-AB81-79ED76D3F0F2} = {299E2332-9E2B-40C9-8D19-CBA61472D1CF}
 		{6478A78B-FE4C-4BE7-A926-46FE1D42C1DD} = {299E2332-9E2B-40C9-8D19-CBA61472D1CF}
 		{BC6863B0-48AF-4077-B0D8-EE67832E635A} = {8B177EE1-318D-45A5-9FD3-51827DFDFDAA}
+		{8957DBAF-B6E6-478F-9F2D-368BE8B37764} = {8B177EE1-318D-45A5-9FD3-51827DFDFDAA}
+		{F90D080A-3974-4570-B061-BE3A82B8E548} = {8957DBAF-B6E6-478F-9F2D-368BE8B37764}
+		{6383C282-968E-4D04-AC06-82E1931C39FC} = {8957DBAF-B6E6-478F-9F2D-368BE8B37764}
+		{71314A97-6636-4031-96CF-246D63616C79} = {8957DBAF-B6E6-478F-9F2D-368BE8B37764}
+		{0CC8D32A-8C33-4724-A19B-AD5F1EB740C5} = {8B177EE1-318D-45A5-9FD3-51827DFDFDAA}
+		{1C7B2D2F-F0A6-4301-BD14-91BCDB850317} = {0CC8D32A-8C33-4724-A19B-AD5F1EB740C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F48A0D6D-3694-4C7A-AB4E-1FA52DA38837}
