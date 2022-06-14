@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1927
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_graph", "VisualStudyConsole\struct_graph.csproj", "{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}"
 EndProject
@@ -532,7 +532,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Models", "TodoApp.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Conosle.Program", "TodoApp.Conosle.Program\TodoApp.Conosle.Program.csproj", "{7345FEFF-140C-45B9-AB81-79ED76D3F0F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{6478A78B-FE4C-4BE7-A926-46FE1D42C1DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{6478A78B-FE4C-4BE7-A926-46FE1D42C1DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "58_FileStream", "58_FileStream", "{BC6863B0-48AF-4077-B0D8-EE67832E635A}"
 	ProjectSection(SolutionItems) = preProject
@@ -550,6 +550,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "44_OverrideReview", "44_OverrideReview", "{0CC8D32A-8C33-4724-A19B-AD5F1EB740C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideReivew", "OverrideReivew\OverrideReivew.csproj", "{1C7B2D2F-F0A6-4301-BD14-91BCDB850317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "61_FunctionalProgramming", "61_FunctionalProgramming", "{6001418C-4D28-4954-9CB7-D0302775B1AF}"
+	ProjectSection(SolutionItems) = preProject
+		FunctionalProgramming.txt = FunctionalProgramming.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgrammingDemo", "FunctionalProgrammingDemo\FunctionalProgrammingDemo.csproj", "{FB083573-DAD9-460E-B4F9-B4EC640960EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1189,6 +1196,10 @@ Global
 		{1C7B2D2F-F0A6-4301-BD14-91BCDB850317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C7B2D2F-F0A6-4301-BD14-91BCDB850317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C7B2D2F-F0A6-4301-BD14-91BCDB850317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB083573-DAD9-460E-B4F9-B4EC640960EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB083573-DAD9-460E-B4F9-B4EC640960EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB083573-DAD9-460E-B4F9-B4EC640960EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB083573-DAD9-460E-B4F9-B4EC640960EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1364,6 +1375,7 @@ Global
 		{71314A97-6636-4031-96CF-246D63616C79} = {8957DBAF-B6E6-478F-9F2D-368BE8B37764}
 		{0CC8D32A-8C33-4724-A19B-AD5F1EB740C5} = {8B177EE1-318D-45A5-9FD3-51827DFDFDAA}
 		{1C7B2D2F-F0A6-4301-BD14-91BCDB850317} = {0CC8D32A-8C33-4724-A19B-AD5F1EB740C5}
+		{FB083573-DAD9-460E-B4F9-B4EC640960EF} = {6001418C-4D28-4954-9CB7-D0302775B1AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F48A0D6D-3694-4C7A-AB4E-1FA52DA38837}
