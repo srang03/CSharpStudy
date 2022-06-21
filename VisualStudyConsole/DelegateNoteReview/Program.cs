@@ -11,6 +11,7 @@ namespace DelegateNoteReview
         public delegate void GoHome();
         static void Main(string[] args)
         {
+            Action<string> printf = Console.WriteLine;
             GoHome goHome = new GoHome(CarDriver.직진);
 
             goHome += CarDriver.직진;
@@ -19,6 +20,7 @@ namespace DelegateNoteReview
 
             goHome += () => Console.WriteLine("도착");
 
+            printf("Hello");
             goHome.Invoke();
         }
     }
