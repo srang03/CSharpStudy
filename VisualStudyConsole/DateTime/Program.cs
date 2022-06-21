@@ -33,8 +33,7 @@ namespace DateTimeExample
             Console.WriteLine(now.ToLongDateString());
 
             // [4] 시간차 구하기 : TimeSpan 구조체
-            TimeSpan dday 
-
+      
 
             // Console.WriteLine(new GetDataTimeFromHour().GetDateTimeFromYearlyHourNumber(25));
         }

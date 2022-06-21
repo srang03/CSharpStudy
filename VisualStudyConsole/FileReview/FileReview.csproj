@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42FB84B1-CF58-4249-BCAA-7B045EA7522E}</ProjectGuid>
+    <ProjectGuid>{A0D0484F-1FFE-4B43-BD4B-E865629645DF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DelegateNoteReview</RootNamespace>
-    <AssemblyName>DelegateNoteReview</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>FileReview</RootNamespace>
+    <AssemblyName>FileReview</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TodoApp.Lib\TodoApp.Lib.csproj">
+      <Project>{20B8AA2E-4610-4C54-A3DF-119399A87A45}</Project>
+      <Name>TodoApp.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
