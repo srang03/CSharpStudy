@@ -1,1 +1,33 @@
 파일에 대한 입력과 출력을 담당하는 네임스페이스는 System.IO 입니다.
+- Stream
+	FileStream
+	MemoryStream
+	NetworkStream
+
+- File/Directory 클래스
+	파일 처리
+		File
+			File.WriteAllText()
+			File.ReadAllText()
+		FileInfo
+		FileStream
+
+	디렉토리 처리
+		Directory 
+			Directory.Exists
+			Directory.CreateDirectory
+		DirectoryInfo
+
+- SqlClient
+	System.Data.SqlClient
+	System.Data
+
+스트림 (Stream)
+- 스트림 : 데이터를 파일/네트워크/데이터베이스 등으로 이동하는 (핸들링) 메커니즘
+			읽고 쓰기가 가능하다
+			원본 파일(텍스트 파일, 바이너리 파일 등) > 응용 프로그램 (웹, 앱, 콘솔 등) > 저장소 (파일, 메모리, DB, 네트워크)
+
+			영구적인 저장소에서 데이터를 읽고, 영구적인 저장소에 데이터를 쓰는 기능
+
+스트림 또는 파일 처리를 활용해서 데이터를 입력하고 출력하는 기능을 수행할 수 있다.
+
