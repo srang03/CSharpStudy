@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D363EE84-3CF7-4C02-8C52-C95876F385FA}</ProjectGuid>
+    <ProjectGuid>{35C823E7-C755-425C-AEFE-104A54423175}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DelegateParameter</RootNamespace>
-    <AssemblyName>DelegateParameter</AssemblyName>
+    <RootNamespace>CollectionReview</RootNamespace>
+    <AssemblyName>CollectionReview</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
