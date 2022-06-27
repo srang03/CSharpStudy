@@ -6,5 +6,6 @@ namespace TodoApp.Lib
     {
         Todo Add(Todo todo);
         List<Todo> GetAllTodos();
+        void DeleteTodo(int id);
     }
 }

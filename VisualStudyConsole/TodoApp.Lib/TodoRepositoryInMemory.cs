@@ -26,6 +26,11 @@ namespace TodoApp.Lib
             return todo;
         }
 
+        public void DeleteTodo(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Todo> GetAllTodos()
         {  
             return _repository;

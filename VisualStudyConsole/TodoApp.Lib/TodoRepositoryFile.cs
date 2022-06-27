@@ -43,5 +43,10 @@ namespace TodoApp.Lib
         {  
             return _repository;
         }
+
+        public void DeleteTodo(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
