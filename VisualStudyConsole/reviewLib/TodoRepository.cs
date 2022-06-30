@@ -86,7 +86,9 @@ namespace reviewLib
             if (conn.OpenDBConnection())
             {
                 conn.CloseDBConnection();
+                return true;
             }
+            return false;
         }
 
         public bool DeleteTodo(int id)

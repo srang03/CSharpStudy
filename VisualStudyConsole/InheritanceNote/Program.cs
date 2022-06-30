@@ -10,9 +10,9 @@ namespace InheritanceNote
     {
         static void Main(string[] args)
         {
-            var child = new Child();
-            child.Bar();
-            child.Foo();
+            //var child = new Child();
+            //child.Bar();
+            //child.Foo();
         }
     }
 }
