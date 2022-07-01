@@ -13,31 +13,41 @@ namespace ThreadReview2
             {
                
             };
+            Thread t4 = new Thread(c);
 
             t1.Start();
             t2.Start();
             t3.Start();
+            t4.Start();
+            
             
         }
         private static void Ide()
         {
             Console.WriteLine($"T{Thread.CurrentThread.ManagedThreadId} : Ide tarting");
-            Thread.Sleep(2000);
+            Thread.Sleep(3000);
             Console.WriteLine($"T{Thread.CurrentThread.ManagedThreadId} : Ide End");
         }
 
         private static void Sql()
         {
             Console.WriteLine($"T{Thread.CurrentThread.ManagedThreadId} : Sql Starting");
-            Thread.Sleep(2000);
+            Thread.Sleep(3000);
             Console.WriteLine($"T{Thread.CurrentThread.ManagedThreadId} : Sql End");
         }
 
         private static void Win()
         {
             Console.WriteLine($"T{Thread.CurrentThread.ManagedThreadId} : Win Starting");
-            Thread.Sleep(2000);
+            Thread.Sleep(3000);
             Console.WriteLine($"T{Thread.CurrentThread.ManagedThreadId} : Win End");
+        }
+
+        private static void C()
+        {
+            global::System.Console.WriteLine($"T{Thread.CurrentThread.ManagedThreadId} : C Starting");
+            Thread.Sleep(200);
+            global::System.Console.WriteLine($"T{Thread.CurrentThread.ManagedThreadId} : C End");
         }
     }
 }
