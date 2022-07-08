@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32526.322
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1927
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_graph", "VisualStudyConsole\struct_graph.csproj", "{EAF067A4-1CEE-4FE5-87E6-1855AF68B91C}"
 EndProject
@@ -599,9 +599,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "새 폴더1", "새 폴더1"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "55_Thread", "55_Thread", "{1C5F1CDB-1EB6-438B-B7C6-8E1843EC5EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadReview1", "ThreadReview1\ThreadReview1.csproj", "{703603D6-508D-4E77-8257-8BB8285B8CB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadReview1", "ThreadReview1\ThreadReview1.csproj", "{703603D6-508D-4E77-8257-8BB8285B8CB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadReview2", "ThreadReview2\ThreadReview2.csproj", "{35A3F4B2-569B-4A97-8869-29A326875A7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadReview2", "ThreadReview2\ThreadReview2.csproj", "{35A3F4B2-569B-4A97-8869-29A326875A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread2", "Thread2\Thread2.csproj", "{ED72E1B3-D992-4115-B90F-20CF07224769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review", "Review\Review.csproj", "{7E781515-AD59-4625-AE03-D03A3B5CB0CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1297,6 +1301,14 @@ Global
 		{35A3F4B2-569B-4A97-8869-29A326875A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35A3F4B2-569B-4A97-8869-29A326875A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A3F4B2-569B-4A97-8869-29A326875A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED72E1B3-D992-4115-B90F-20CF07224769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED72E1B3-D992-4115-B90F-20CF07224769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED72E1B3-D992-4115-B90F-20CF07224769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED72E1B3-D992-4115-B90F-20CF07224769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E781515-AD59-4625-AE03-D03A3B5CB0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E781515-AD59-4625-AE03-D03A3B5CB0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E781515-AD59-4625-AE03-D03A3B5CB0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E781515-AD59-4625-AE03-D03A3B5CB0CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1493,6 +1505,8 @@ Global
 		{1C5F1CDB-1EB6-438B-B7C6-8E1843EC5EDE} = {8B177EE1-318D-45A5-9FD3-51827DFDFDAA}
 		{703603D6-508D-4E77-8257-8BB8285B8CB7} = {1C5F1CDB-1EB6-438B-B7C6-8E1843EC5EDE}
 		{35A3F4B2-569B-4A97-8869-29A326875A7E} = {1C5F1CDB-1EB6-438B-B7C6-8E1843EC5EDE}
+		{ED72E1B3-D992-4115-B90F-20CF07224769} = {1C5F1CDB-1EB6-438B-B7C6-8E1843EC5EDE}
+		{7E781515-AD59-4625-AE03-D03A3B5CB0CE} = {05EBBCF6-D406-4113-A525-E249F55320A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F48A0D6D-3694-4C7A-AB4E-1FA52DA38837}
