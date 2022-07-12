@@ -12,6 +12,9 @@ namespace Extension
         {
             string greeting = "Hello";
             greeting.ToPlus("C#");
+
+            Car car = new Car();
+            car.Run();
         }
     }
 }
