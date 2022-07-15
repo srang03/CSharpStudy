@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -8,42 +7,110 @@ namespace TaskRunMethod
 {
     internal class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
-            var service = new WeatherService();
-            var forcast = await service.GetForcastAsync(DateTime.Now);
+            //var service = new WeatherService();
+            //var forcast = await service.GetForcastAsync(DateTime.Now);
 
-            foreach(var w in forcast)
+            //foreach(var w in forcast)
+            //{
+            //    Console.WriteLine($"{w.Date}\t{w.TemperatureC}\t{w.TemperatureF}\t{w.Summary}");
+            //}
+            Stopwatch stopwatch = new Stopwatch();
+            Console.WriteLine("Main 실행");
+            stopwatch.Start();
+         
+                Cooking cooking = new Cooking();
+                
+                cooking.MakeRiceAsync();
+                cooking.MakeSoupAsync();
+                cooking.MakeEggeAsync();
+           
+         
+            stopwatch.Stop();
+            Console.WriteLine("Main 종료");
+            Console.WriteLine(stopwatch.ElapsedMilliseconds);
+            Console.ReadKey();
+
+            
+        }
+        static async Task CookingAsync()
+        {
+            Stopwatch stopwatch = new Stopwatch();
+
+            Console.WriteLine("Main 실행");
+            stopwatch.Start();
+            Cooking cooking = new Cooking();
+            await cooking.MakeRiceAsync();
+            Console.WriteLine("Rice End");
+            await cooking.MakeSoupAsync();
+            Console.WriteLine("Soup End");
+            await cooking.MakeEggeAsync();
+            Console.WriteLine("Egg End");
+            stopwatch.Stop();
+            Console.WriteLine("Main 종료");
+            Console.WriteLine(stopwatch.ElapsedMilliseconds);
+        }
+
+    }
+
+    public class Cooking
+    {
+        public Rice MakeRice()
+        {
+            Console.WriteLine("Cooking for Rice");
+            Thread.Sleep(2000);
+            return new Rice();
+        }
+
+        public Task<Rice> MakeRiceAsync()
+        {
+            return Task.Run(() =>
             {
-                Console.WriteLine($"{w.Date}\t{w.TemperatureC}\t{w.TemperatureF}\t{w.Summary}");
+                Console.WriteLine("Cooking for Rice");
+                Thread.Sleep(2000);
+                Console.WriteLine("Rice End");
+                return new Rice();
+            });
+        }
+
+        public Soup MakeSoup()
+        {
+            Console.WriteLine("Cooking for Soup");
+            Thread.Sleep(2000);
+            Console.WriteLine("Soup End");
+            return new Soup();
+        }
+
+        public Task<Soup> MakeSoupAsync()
+        {
+            return Task.Run(() =>
+            {
+                Console.WriteLine("Cooking for Soup");
+                Thread.Sleep(2000);
+                Console.WriteLine("Soup End");
+                return new Soup();
+            });
+        }
+
+        public Egg MakeEgg()
+        {
+            Console.WriteLine("Cooking for Egg");
+            Thread.Sleep(2000);
+            Console.WriteLine("Egg End");
+            return new Egg();
+        }
+
+        public Task<Egg> MakeEggeAsync()
+        { 
+             Console.WriteLine("Cooking for Egg");
+            long sum = 0;
+            for (int i = 0; i < 1_000_000_000; i++)
+            {
+                sum += i;
             }
+            Console.WriteLine("Egg End");
+            return Task.FromResult(new Egg());
         }
-    }
-    public class WeatherForcast
-    {
-        public DateTime Date { get; set; }
-        public int TemperatureC { get; set; }
-        public int TemperatureF { get; set; }
-        public string Summary { get; set; }
-    }
-
-    public class WeatherService
-    {
-        private static string[] summaries = new string[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm"," Balmy", "Hot"
-        };
-
-        public Task<List<WeatherForcast>> GetForcastAsync(DateTime startDate)
-        {
-            var rng = new Random();
-            return Task.FromResult(Enumerable.Range(1, 5).Select(idx => new WeatherForcast()
-            {
-                Date = startDate.AddDays(idx),
-                TemperatureC = rng.Next(-20, 40),
-                Summary = summaries[rng.Next(summaries.Length)],
-            }).ToList());
-        }
-
     }
 }
