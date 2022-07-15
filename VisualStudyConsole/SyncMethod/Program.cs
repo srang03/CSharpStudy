@@ -26,6 +26,7 @@ namespace SyncMethod
                 sum += i;
             }
             Console.WriteLine("A 작업 완료");
+  
         }
 
         static void Function_B()

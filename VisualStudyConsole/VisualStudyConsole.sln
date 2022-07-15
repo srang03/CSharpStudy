@@ -649,6 +649,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncMethod", "SyncMethod\Sy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiveAsyncTask", "GiveAsyncTask\GiveAsyncTask.csproj", "{2781F987-B6AB-4177-B59D-39A90A231D92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFormsApp", "AsyncFormsApp\AsyncFormsApp.csproj", "{8CD6D9EC-2F6C-4338-A38C-8DF9E1256D97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1423,6 +1425,10 @@ Global
 		{2781F987-B6AB-4177-B59D-39A90A231D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2781F987-B6AB-4177-B59D-39A90A231D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2781F987-B6AB-4177-B59D-39A90A231D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD6D9EC-2F6C-4338-A38C-8DF9E1256D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD6D9EC-2F6C-4338-A38C-8DF9E1256D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD6D9EC-2F6C-4338-A38C-8DF9E1256D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD6D9EC-2F6C-4338-A38C-8DF9E1256D97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1644,6 +1650,7 @@ Global
 		{FDEB9F6D-6EE0-42B1-BE72-1D71358A1EE7} = {C4863DE9-3B2B-4403-B781-94088251EB73}
 		{43DE77B7-558D-44BA-A9DC-B474FA729A3D} = {C4863DE9-3B2B-4403-B781-94088251EB73}
 		{2781F987-B6AB-4177-B59D-39A90A231D92} = {C4863DE9-3B2B-4403-B781-94088251EB73}
+		{8CD6D9EC-2F6C-4338-A38C-8DF9E1256D97} = {C4863DE9-3B2B-4403-B781-94088251EB73}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F48A0D6D-3694-4C7A-AB4E-1FA52DA38837}

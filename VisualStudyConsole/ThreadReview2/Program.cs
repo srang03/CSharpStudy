@@ -11,14 +11,12 @@ namespace ThreadReview2
             Thread t2 = new Thread(Sql);
             Thread t3 = new Thread(Win)
             {
-               
-            };
-            Thread t4 = new Thread(c);
 
+            };
             t1.Start();
             t2.Start();
             t3.Start();
-            t4.Start();
+
             
             
         }
