@@ -647,6 +647,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRunMethod", "TaskRunMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncMethod", "SyncMethod\SyncMethod.csproj", "{43DE77B7-558D-44BA-A9DC-B474FA729A3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiveAsyncTask", "GiveAsyncTask\GiveAsyncTask.csproj", "{2781F987-B6AB-4177-B59D-39A90A231D92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1417,6 +1419,10 @@ Global
 		{43DE77B7-558D-44BA-A9DC-B474FA729A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DE77B7-558D-44BA-A9DC-B474FA729A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DE77B7-558D-44BA-A9DC-B474FA729A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2781F987-B6AB-4177-B59D-39A90A231D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2781F987-B6AB-4177-B59D-39A90A231D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2781F987-B6AB-4177-B59D-39A90A231D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2781F987-B6AB-4177-B59D-39A90A231D92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1637,6 +1643,7 @@ Global
 		{6286269B-6F83-4670-A2B6-05CCB20D190E} = {C4863DE9-3B2B-4403-B781-94088251EB73}
 		{FDEB9F6D-6EE0-42B1-BE72-1D71358A1EE7} = {C4863DE9-3B2B-4403-B781-94088251EB73}
 		{43DE77B7-558D-44BA-A9DC-B474FA729A3D} = {C4863DE9-3B2B-4403-B781-94088251EB73}
+		{2781F987-B6AB-4177-B59D-39A90A231D92} = {C4863DE9-3B2B-4403-B781-94088251EB73}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F48A0D6D-3694-4C7A-AB4E-1FA52DA38837}
