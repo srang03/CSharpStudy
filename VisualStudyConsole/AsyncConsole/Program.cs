@@ -12,7 +12,7 @@ namespace AsyncConsole
         {
             await DoAsync();
         }
-        static async Task DoAsync()
+        static async Task DoAsync()  
         {
             using (var client = new HttpClient())
             {
